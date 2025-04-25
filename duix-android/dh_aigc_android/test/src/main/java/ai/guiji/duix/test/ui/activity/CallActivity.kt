@@ -161,7 +161,7 @@ class CallActivity : BaseActivity() {
         runOnUiThread {
             // 设置是随机播放动作区间还是顺序播放
             if ((mModelInfo?.motionRegions?.size ?: 0) > 0){
-                duix?.setRandomMotion(true)
+                duix?.setRandomMotion(false)
             }
             binding.btnPlayEN.visibility = View.VISIBLE
             binding.btnPlayZH.visibility = View.VISIBLE

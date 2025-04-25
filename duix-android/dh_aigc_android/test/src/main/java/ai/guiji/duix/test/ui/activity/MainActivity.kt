@@ -25,7 +25,7 @@ class MainActivity : BaseActivity() {
     private var baseConfigReady = false
 
     private val modelUrl =
-        "https://github.com/GuijiAI/duix.ai/releases/download/v1.0.0/bendi3_20240518.zip"   // ** 在这里更新模型地址 **
+        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1745223721730/0421bzt.zip"   // ** 在这里更新模型地址 **
     private lateinit var modelDir: File
     private val liangweiUUID = "d39caddd-488b-4682-b6d1-13549b135dd1"       // 可以用来控制模型文件版本
     private var modelReady = false
